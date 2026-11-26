@@ -2456,7 +2456,7 @@ class NormalFormGame(SageObject, MutableMapping):
             )
         return cls(loaded)
 
-    def is_constant_sum(self):
+    def is_constant_sum(self) -> bool:
         r"""
         Check if the game is constant sum.
 
